@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Varta:wght@300;400;700&display=swap");
+ 
+* { 
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Merriweather";
+}
+
+.container { 
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+  }
+   
+  nav { 
+    display: flex;
+    align-items: center;
+    padding: 24px 150px;
+  }
+
+  .logo { 
+    color: #a06056;
+    font-size: 34px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-right: 32px;
+  }
+  
+  .navLinks { 
+    display: flex;
+    align-items: center;
+    gap: 32px;
+  }
+   
+  .navLinks li { 
+      margin-top: 5px;
+  }
+   
+  .navLinks li a { 
+    font-family: "Varta";
+    color: #706458;
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  main { 
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 150px;
+    margin-top: 120px;
+}
+
+.mainTitle { 
+    color: #a06056;
+    font-family: "Varta";
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 1px;
+}
+
+.mainDescription { 
+    color: #a06056;
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 70px;
+    letter-spacing: -0.4px;
+}
+ 
+.mainSubDescription { 
+    color: rgba(112, 100, 88, 0.9);
+    font-family: 'Varta';
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 30.8px;
+}
+
+.img { 
+    height: 100%; 
+    width: 100%;  
+}
